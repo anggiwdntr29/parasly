@@ -8,6 +8,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            backgroundImage: {
+                ring: "url('/src/image/ring.png')",
+            },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
             },
